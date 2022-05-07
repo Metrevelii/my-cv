@@ -8,7 +8,7 @@
 .languages__headline {
     width: fit-content;
     height: auto;
-    border-bottom: 3px solid aqua;
+    border-bottom: 3px solid #449399;
     padding-bottom: 7px;
 }
 
@@ -16,7 +16,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    color: aqua;
+    color: #449399;
     line-height: 20px;
     text-transform: uppercase;
 }
@@ -53,7 +53,7 @@
     font-size: 14px;
     font-weight: 400;
     font-style: italic;
-    color: rgba(87, 243, 243, 0.8);
+    color: #449399;
     margin-top: 5px;
 }
 

@@ -12,7 +12,7 @@
   width: fit-content;
   height: auto;
 
-  border-bottom: 3px solid aqua;
+  border-bottom: 3px solid #449399;
   padding-bottom: 7px;
 }
 
@@ -20,7 +20,7 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  color: aqua;
+  color: #449399;
   line-height: 20px;
   text-transform: uppercase;
 }
@@ -88,14 +88,14 @@
   font-size: 12px;
   font-style: italic;
   font-weight: 400;
-  color: rgba(87, 243, 243, 0.8);
+  color: #449399;
 }
 
 .cvContent__experience-location p {
   font-size: 12px;
   font-style: italic;
   font-weight: 400;
-  color: rgb(87, 243, 243, 0.8);
+  color: #449399;
 }
 
 .cvContent__experience-description--bottom {
@@ -133,7 +133,7 @@
   font-style: italic;
   font-size: 12px;
   font-weight: 400;
-  color: rgba(87, 243, 243, 0.8);
+  color: #449399;
 }
 
 .cvContent__experience-list {
@@ -162,7 +162,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: rgba(87, 243, 243, 0.8);
+  background-color: #449399;
   flex-shrink: 0;
 }
 

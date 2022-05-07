@@ -12,7 +12,7 @@
     width: fit-content;
     height: auto;
 
-    border-bottom: 3px solid aqua;
+    border-bottom: 3px solid #449399;
     padding-bottom: 7px;
 }
 
@@ -20,7 +20,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    color: aqua;
+    color: #449399;
     line-height: 20px;
     text-transform: uppercase;
 }
@@ -52,7 +52,7 @@
 
     padding: 10px;
 
-    background-color: rgba(21, 19, 71, 0.8);
+    background-color: #989da6;
     border-radius: 20px;
     margin-right: 5px;
     margin-bottom: 7px;

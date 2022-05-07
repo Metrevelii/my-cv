@@ -15,23 +15,23 @@
 }
 
 .projects::-webkit-scrollbar-track {
-    background: #102330;
-    border-radius: 2px;
-}
-
-.projects::-webkit-scrollbar-thumb {
     background: #e1e1e1;
     border-radius: 2px;
 }
 
+.projects::-webkit-scrollbar-thumb {
+    background: #102330;
+    border-radius: 2px;
+}
+
 .projects::-webkit-scrollbar-thumb:hover {
-    background: #e4e4e4;
+    background: #424344;
 }
 
 .projects__headline {
     width: fit-content;
     height: auto;
-    border-bottom: 3px solid aqua;
+    border-bottom: 3px solid #449399;
     padding-bottom: 7px;
 }
 
@@ -39,7 +39,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    color: aqua;
+    color: #449399;
     line-height: 20px;
     text-transform: uppercase;
 }
@@ -79,7 +79,7 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: aqua;
+    background-color: #449399;
     flex-shrink: 0;
 }
 
