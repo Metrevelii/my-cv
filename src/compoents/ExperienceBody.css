@@ -1,0 +1,242 @@
+.cvContent__experience {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.cvContent__experience-headline {
+  width: fit-content;
+  height: auto;
+
+  border-bottom: 3px solid aqua;
+  padding-bottom: 7px;
+}
+
+.cvContent__experience-headline h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  color: aqua;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.cvContent__experience-body {
+  height: auto;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-top: 20px;
+}
+
+.cvContent__experience-title {
+  width: fit-content;
+  height: auto;
+}
+
+.cvContent__experience-title h3 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  color: #000;
+  line-height: 20px;
+}
+
+.cvContent__experience-workplace {
+  width: fit-content;
+  height: auto;
+
+  margin-top: 5px;
+}
+
+.cvContent__experience-workplace h3 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+}
+
+.cvContent__experience-description {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.cvContent__experience-description--top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 100%;
+
+  margin-top: 10px;
+}
+
+.cvContent__experience-date p {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(87, 243, 243, 0.8);
+}
+
+.cvContent__experience-location p {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+  color: rgb(87, 243, 243, 0.8);
+}
+
+.cvContent__experience-description--bottom {
+  width: 100%;
+  height: auto;
+}
+
+.cvContent__experience-desc {
+  width: 100%;
+  height: auto;
+
+  margin-top: 5px;
+}
+
+.cvContent__experience-desc p {
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(48, 48, 48);
+  text-align: start;
+}
+
+.cvContent__experience-achievements {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-top: 7px;
+}
+
+.cvContent__experience-achievements--text p {
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(87, 243, 243, 0.8);
+}
+
+.cvContent__experience-list {
+  width: 100%;
+  height: auto;
+}
+
+.cvContent__experience-list ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-top: 15px;
+}
+
+.cvContent__experience-list li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: 100%;
+}
+
+.cvContent__experience-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(87, 243, 243, 0.8);
+  flex-shrink: 0;
+}
+
+.cvContent__experience-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: start;
+
+  margin-left: 10px;
+  color: #000;
+}
+
+@media screen and (max-width: 940px) and (min-width: 320px) {
+  .cvContent__experience-headline {
+    padding-bottom: 1.3333vw;
+  }
+  .cvContent__experience-headline h3 {
+    font-size: 3.733333vw;
+  }
+
+  .cvContent__experience-body {
+    margin-top: 3.33333vw;
+  }
+
+  .cvContent__experience-title h3 {
+    font-size: 3.5333333vw;
+  }
+
+  .cvContent__experience-workplace {
+    margin-top: 1.3333vw;
+  }
+  .cvContent__experience-workplace h3 {
+    font-size: 3.333333vw;
+  }
+
+  .cvContent__experience-description--top {
+    margin-top: 2.533333vw;
+  }
+
+  .cvContent__experience-date p {
+    font-size: 2.9999vw;
+  }
+  .cvContent__experience-location p {
+    font-size: 2.9999vw;
+  }
+
+  .cvContent__experience-desc {
+    margin-top: 1.2vw;
+  }
+  .cvContent__experience-desc p {
+    font-size: 2.9999vw;
+  }
+
+  .cvContent__experience-achievements {
+    margin-top: 2vw;
+  }
+
+  .cvContent__experience-achievements--text {
+    font-size: 2.9999vw;
+  }
+
+  .cvContent__experience-list ul {
+    margin-top: 3vw;
+  }
+
+  .cvContent__experience-bullet {
+    width: 2.333vw;
+    height: 2.333vw;
+  }
+
+  .cvContent__experience-text {
+    font-size: 3.3333vw;
+    margin-left: 2vw;
+  }
+}

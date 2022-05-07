@@ -1,0 +1,121 @@
+.header {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    background: linear-gradient(90deg, #313c4e 0.2%, rgba(27, 18, 18, 0.2) 100%);
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 25px;
+}
+
+.header__info {
+    width: 50%;
+    height: 170px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.header__info-name {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 46px;
+
+    color: #fff;
+}
+
+.header__info-proff {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 40px;
+
+    color: #151347;
+}
+
+.header__info-age {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 40px;
+
+    color: #fff;
+}
+
+.header__info-border {
+    max-width: 220px;
+    max-height: 220px;
+    width: 160px;
+    height: 160px;
+
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #151347;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.header__info-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 35;
+
+    background-image: url(../img/profile-img.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 940px) and (min-width: 320px) {
+    .header {
+        padding-top: 4.333333333vw;
+    }
+
+    .header__inner {
+        padding: 0 2vw;
+    }
+
+    .header__info {
+        height: 40vw;
+        width: 60%;
+    }
+
+    .header__info-name {
+        font-size: 6.55555vw;
+        line-height: 20px;
+
+    }
+
+    .header__info-proff {
+        font-size: 4.333vw;
+        line-height: 20px;
+    }
+
+    .header__info-age {
+        font-size: 3.93333vw;
+        line-height: 20px;
+    }
+
+    .header__info-border {
+        max-width: 60vw;
+        max-height: 60vw;
+
+        border-width: 0.93333vw;
+
+        width: 37vw;
+        height: 37vw;
+    }
+  }

@@ -1,0 +1,244 @@
+.cvContent__education {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-top: 50px;
+}
+
+.cvContent__education-headline {
+    width: fit-content;
+    height: auto;
+
+    border-bottom: 3px solid aqua;
+    padding-bottom: 7px;
+}
+
+.cvContent__education-headline h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: aqua;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.cvContent__education-body {
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-top: 20px;
+}
+
+.cvContent__education-title {
+    width: fit-content;
+    height: auto;
+
+}
+
+.cvContent__education-title h3 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    color: #000;
+    line-height: 20px;
+}
+
+.cvContent__education-workplace {
+    width: fit-content;
+    height: auto;
+
+    margin-top: 5px;
+}
+
+.cvContent__education-workplace h3 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+}
+
+.cvContent__education-description {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.cvContent__education-description--top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 100%;
+
+    margin-top: 10px;
+}
+
+.cvContent__education-date p{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    color: rgba(87, 243, 243, 0.8);
+}
+
+.cvContent__education-location p {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    color: rgb(87, 243, 243, 0.8);   
+}
+
+.cvContent__education-description--bottom {
+    width: 100%;
+    height: auto;
+}
+
+.cvContent__education-desc {
+    width: 100%;
+    height: auto;
+
+    margin-top: 5px;
+}
+
+.cvContent__education-desc p {
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(165, 165, 165, 0.8);
+    text-align: start;
+}
+
+.cvContent__education-achievements {
+    width: 100%;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-top: 7px;
+}
+
+.cvContent__education-achievements--text p {
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(87, 243, 243, 0.8);
+}
+
+.cvContent__education-list {
+    width: 100%;
+    height: auto;
+}
+
+.cvContent__education-list ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-top: 15px;
+}
+
+.cvContent__education-list li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 100%;
+}
+
+.cvContent__education-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(87, 243, 243, 0.8);
+    flex-shrink: 0;
+}
+
+.cvContent__education-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: start;
+
+    margin-left: 10px;
+    color: #000;
+}
+
+
+@media screen and (max-width: 940px) and (min-width: 320px) {
+    .cvContent__education {
+        margin-top: 10vw;
+    }
+
+    .cvContent__education-headline {
+        padding-bottom: 1.3333vw;
+    }
+
+    .cvContent__education-headline h3 {
+        font-size: 3.733333vw;
+    }
+
+    .cvContent__education-body {
+        margin-top: 3.33333vw;
+    }
+
+    .cvContent__education-title h3 {
+        font-size: 3.5333333vw;
+        line-height: 18px;
+    }
+
+    .cvContent__education-workplace {
+        margin-top: 1.3333vw;
+        
+    }
+    .cvContent__education-workplace h3 {
+        font-size: 3.333333vw;
+    }
+
+    .cvContent__education-description--top {
+        margin-top: 2.533333vw;
+    }
+
+    .cvContent__education-date p{
+        font-size: 2.9999vw;
+    }
+
+    .cvContent__education-location p {
+        font-size: 2.9999vw;
+    }
+
+    .cvContent__education-achievements--text p{
+        font-size: 2.9999vw;
+    }
+
+    .cvContent__education-list ul {
+        margin-top: 3vw;
+    }
+
+    .cvContent__education-bullet {
+        width: 2.333vw;
+        height: 2.333vw;
+    }
+
+    .cvContent__education-text {
+        font-size: 3.3333vw;
+        margin-left: 2vw;
+    }
+}
